@@ -1,0 +1,12 @@
+.navlink__item {
+  padding: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.navlink__item:hover {
+  color: #fff;
+  background-color: #063970;
+}
