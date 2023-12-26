@@ -1,11 +1,17 @@
-import NavLink from '../../atoms/NavLink';
+import Link from '../../atoms/Link';
 import styles from './NavBar.module.css';
 const NavBar = () => {
   return (
     <ul className={styles.navlinks}>
-      <NavLink label={'About me'} />
-      <NavLink label={'Experience'} />
-      <NavLink label={'Contact me'} />
+      <li>
+        <Link label={'About me'} />
+      </li>
+      <li>
+        <Link label={'Experience'} />
+      </li>
+      <li>
+        <Link label={'Contact me'} />
+      </li>
     </ul>
   );
 };

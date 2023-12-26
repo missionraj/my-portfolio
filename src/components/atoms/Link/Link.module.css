@@ -3,10 +3,10 @@
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: var(--text-secondary);
 }
 
 .navlink__item:hover {
-  color: #fff;
-  background-color: #063970;
+  color: var(--text-secondary);
+  background-color: var(--bg-secondary);
 }

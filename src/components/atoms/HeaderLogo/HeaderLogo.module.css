@@ -1,0 +1,5 @@
+.headerlogo {
+  font-weight: var(--font-bold);
+  color: var(--text-tertiary);
+  font-size: var(--text-3xl);
+}

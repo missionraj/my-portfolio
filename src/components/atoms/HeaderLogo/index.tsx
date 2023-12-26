@@ -1,5 +1,7 @@
+import styles from './HeaderLogo.module.css';
+
 const HeaderLogo = () => {
-  return <div>Raj Rana</div>;
+  return <div className={styles.headerlogo}> Raj Rana </div>;
 };
 
 export default HeaderLogo;
