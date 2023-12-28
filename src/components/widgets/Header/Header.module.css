@@ -1,7 +1,41 @@
 .header {
+  padding: 0 1rem;
+  background-color: var(--bg-primary);
+}
+.header__main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
-  background-color: var(--bg-primary);
+}
+
+.header__main-nav__menu {
+  display: inline-block;
+}
+
+.header__main-nav__iconwrapper {
+  display: none;
+}
+
+.header__main-nav____iconwrapper__icon {
+  color: var(--color-white);
+  height: 2rem;
+  width: 1.5rem;
+}
+
+.header__mobile-nav {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .header__main-nav__iconwrapper {
+    display: inline-block;
+  }
+
+  .header__main-nav__menu {
+    display: none;
+  }
+
+  .header__mobile-nav {
+    display: block;
+  }
 }
