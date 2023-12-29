@@ -3,11 +3,11 @@
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   display: inline-block;
 }
 
 .navlink__item:hover {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   background-color: var(--bg-secondary);
 }

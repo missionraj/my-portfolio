@@ -1,0 +1,21 @@
+.brief {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.brief__headline {
+  color: var(--text-primary);
+  max-width: 400px;
+}
+
+@media (max-width: 768px) {
+  .brief {
+    flex-direction: column;
+  }
+
+  .brief__headline {
+    max-width: 100%;
+  }
+}

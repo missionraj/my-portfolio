@@ -6,9 +6,8 @@
   --color-white: #ffffff;
 
   /* text colors */
-  --text-primary: var(--color-black);
-  --text-secondary: var(--color-white);
-  --text-tertiary: var(--color-red-vermillion);
+  --text-primary: var(--color-white);
+  --text-secondary: var(--color-red-vermillion);
 
   /* bg colors */
   --bg-primary: var(--color-black);

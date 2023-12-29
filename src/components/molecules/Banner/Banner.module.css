@@ -1,0 +1,25 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.banner__child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__child__intro {
+  font-size: clamp(var(--text-base), 10vw, var(--text-6xl));
+  color: var(--text-secondary);
+  font-weight: var(--font-bold);
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+}
