@@ -40,8 +40,13 @@ const Home = () => {
       profileImage: profilePic,
     },
     briefData: {
-      headline:
-        'with 6+ Years Proffesional  Experience in front end developement, Proficient in HTML, CSS, JavaScript, and TypeScript. Experienced in Collaborative Projects with Startups, Mid-size Tech Companies, and MNCs, Including Client Engagement with UK-Based Organizations. Strong Communication Skills and Robust Fundamentals in Frontend Development. Proven Track Record of Delivering High-Quality Solutions, Offering In-Depth Technical Proficiency and Valuable Contributions to Drive Project Success . Following is techstacks list which i have worked on',
+      headline: [
+        'with 6+ Years Proffesional Experience in front end developement, Proficient in HTML, CSS, JavaScript, and TypeScript.',
+        'currently working with react but also have prior experience in angular, vue.js and node.js .',
+        'Experienced in Collaborative Projects with Startups, Mid-size Tech Companies, and MNCs, Including Client Engagement with UK-Based Organizations.',
+        'Strong Communication Skills and Robust Fundamentals in Frontend Development.',
+        'Proven Track Record of Delivering High-Quality Solutions, Offering In-Depth Technical Proficiency and Valuable Contributions to Drive Project Success .',
+      ],
       techStacks: [
         {
           id: 1,

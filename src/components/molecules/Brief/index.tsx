@@ -2,6 +2,7 @@ import { BriefDataType } from '@/utils/types/AboutMe';
 import styles from './Brief.module.css';
 import { FC } from 'react';
 import TechStacks from '../TechStacks';
+import BriefHeadline from '@/components/atoms/BriefHeadline';
 
 interface BriefProps {
   data: BriefDataType;
@@ -9,7 +10,7 @@ interface BriefProps {
 const Brief: FC<BriefProps> = ({ data }) => {
   return (
     <div className={styles.brief}>
-      <p className={styles.brief__headline}> {data.headline} </p>
+      <BriefHeadline headlineList={data.headline} />
       <TechStacks lists={data.techStacks} />
     </div>
   );

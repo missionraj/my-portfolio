@@ -9,7 +9,7 @@ export interface BannerDataType {
 }
 
 export interface BriefDataType {
-  headline: string;
+  headline: string[];
   techStacks: techStackType[];
 }
 
